@@ -3,6 +3,7 @@ class BankAccount {
   constructor(accountNumber, ownerName) {
     this.accountNumber = accountNumber;
     this.ownerName = ownerName;
+    
     BankAccount.#totalNumberOfAccounts++;
   }
 
