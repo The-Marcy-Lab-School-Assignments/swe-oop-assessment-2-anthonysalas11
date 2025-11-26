@@ -1,8 +1,9 @@
 # Section 2 — Short Response
 
-Write your responses directly in this file. Follow markdown formatting guidelines. Check the rubric.md file to see how your short responses will be graded. 
+Write your responses directly in this file. Follow markdown formatting guidelines. Check the rubric.md file to see how your short responses will be graded.
 
 As a quick guide, check the following before submitting:
+
 - [] Answered all parts of every question
 - [] No typos or grammar mistakes (use grammarly!)
 - [] Accurately uses relevant technical terminology
@@ -13,9 +14,13 @@ As a quick guide, check the following before submitting:
 
 ## Question 1
 
-In your own words, explain what does _encapsulation_ refer to? Why is this concept beneficial when programming? 
+#### In your own words, explain what does _encapsulation_ refer to? Why is this concept beneficial when programming?
 
-Provide a code snippet to illustrate _encapsulation_.
+The first step towards achieving `encapsulation` would be to bundle the data and methods into a variable that stores an object.
+
+#### Provide a code snippet to illustrate _encapsulation_.
+
+---
 
 ## Response 2
 
@@ -25,13 +30,17 @@ Provide a code snippet to illustrate _encapsulation_.
 
 Explain what the `this` keyword is. Why is the `this` keyword useful?
 
+If you have a variable that stores an object for example, you will not be able to reference that variable inside of itself.The this keyword will refer to the object that is invoking the method.
+
 In the code snippet below, what does `this` refer to?
+
+the `this` key word inside of the constructor methods code block is referencing the constructor.The `this` keyword inside of the increment methods code block is referring to the increment method.
 
 ```js
 class Counter {
-	constructor() {
-		this.count = 0;
-	}
+  constructor() {
+    this.count = 0;
+  }
   increment() {
     this.count++;
   }
@@ -57,6 +66,12 @@ console.log(counterB.count);
 ## Question 3
 
 In your own words, explain what **polymorphism** means in OOP. Provide an example in code that demonstrates polymorphism.
+
+polymorphism is when you can have objects that are treated the same because they have share the same interface even though the method names for example might behave differently
+
+```js
+
+```
 
 ## Response 3
 
